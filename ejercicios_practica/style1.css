@@ -1,0 +1,61 @@
+/* Utilizando el selector universal (apunt a a todos)
+ para realizar el set de CSS*/
+ * {
+    /* se eliminan todos los margin por defecto */
+    margin: 0;
+    /* se eliminan todos los padding por defecto */
+    padding: 0; 
+    /* se elimina el estilo de las listas */
+    list-style-type: none;
+    /* el padding y border se consideran para calcular
+     el tamaño de la caja */
+    box-sizing: border-box;
+    /* se elimina el subrayado de los links <a> */
+    text-decoration: none;
+ }
+
+ body{
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    width: 35%;
+
+ }
+ 
+ .lenguaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+ }
+
+ section{
+    background-color: rgb(206, 70, 116);
+    gap: 40px;
+    padding: 15px;
+ }
+ footer ul {
+    display: flex;
+    height: 100px;;
+    justify-content: space-around
+    
+ }
+ footer img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    margin: 5px;
+    
+ }
+
+ footer {
+    background-color: rgb(88, 12, 63);
+ }
